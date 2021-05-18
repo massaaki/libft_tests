@@ -15,7 +15,7 @@ make
 
 ### libc functions
 [OK] 1. memset  
-[] 2.  bzero  
+[OK] 2.  bzero  
 [] 3.  memcpy  
 [] 4.  memccpy  
 [] 5.  memmove  
