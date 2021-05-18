@@ -5,4 +5,5 @@
 
 void ft_memset_tests();
 void ft_bzero_tests();
+void ft_memcpy_tests();
 
