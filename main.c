@@ -13,6 +13,7 @@ void tests(void)
 	ft_memcpy_tests();
 	ft_memccpy_tests();
 	ft_memmove_tests();
+	ft_memchr_tests();
 }
 
 int	main(void)

@@ -19,7 +19,7 @@ make
 [OK] 3.  memcpy  
 [OK] 4.  memccpy  
 [OK] 5.  memmove  
-[] 6.  memchr  
+[OK] 6.  memchr  
 [] 7.  memcmp  
 [] 8.  strlen  
 [] 9.  strlcpy  

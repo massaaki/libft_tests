@@ -14,6 +14,8 @@ libraries:
 	@gcc -c ./tests/ft_memcpy_tests.c -o ./out/ft_memcpy_tests.o
 	@gcc -c ./tests/ft_memccpy_tests.c -o ./out/ft_memccpy_tests.o
 	@gcc -c ./tests/ft_memmove_tests.c -o ./out/ft_memmove_tests.o
+	@gcc -c ./tests/ft_memchr_tests.c -o ./out/ft_memchr_tests.o
+	
 
 clean:
 	@rm -f a.out
