@@ -9,3 +9,4 @@ void ft_memcpy_tests();
 void ft_memccpy_tests();
 void ft_memmove_tests(void);
 void ft_memchr_tests(void);
+void	ft_memcmp_tests(void);
