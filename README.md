@@ -20,7 +20,7 @@ make
 [OK] 4.  memccpy  
 [OK] 5.  memmove  
 [OK] 6.  memchr  
-[] 7.  memcmp  
+[OK] 7.  memcmp  
 [] 8.  strlen  
 [] 9.  strlcpy  
 [] 10.  strlcat  
