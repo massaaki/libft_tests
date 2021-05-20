@@ -17,8 +17,8 @@ make
 [OK] 1. memset  
 [OK] 2.  bzero  
 [OK] 3.  memcpy  
-[] 4.  memccpy  
-[] 5.  memmove  
+[OK] 4.  memccpy  
+[OK] 5.  memmove  
 [] 6.  memchr  
 [] 7.  memcmp  
 [] 8.  strlen  

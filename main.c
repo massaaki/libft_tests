@@ -5,13 +5,21 @@
 
 #include "header.h"
 
-int	main(void)
+
+void tests(void)
 {
-	//printf("length..: %lu\n", ft_strlen("abcdefg"));
 	ft_memset_tests();
 	ft_bzero_tests();
 	ft_memcpy_tests();
-	return (0);
+	ft_memccpy_tests();
+	ft_memmove_tests();
 }
 
+int	main(void)
+{
+	tests();
+	
+//	memccpy_sample();
+	return (0);
+}
 
