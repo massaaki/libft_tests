@@ -11,3 +11,4 @@ void ft_memmove_tests(void);
 void ft_memchr_tests(void);
 void	ft_memcmp_tests(void);
 void	ft_strlen_tests(void);
+void ft_strlcpy_tests(void);

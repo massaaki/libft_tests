@@ -16,6 +16,7 @@ void tests(void)
 	ft_memchr_tests();
 	ft_memcmp_tests();
 	ft_strlen_tests();
+	ft_strlcpy_tests();
 }
 
 int	main(void)
