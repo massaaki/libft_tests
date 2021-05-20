@@ -8,5 +8,4 @@ void ft_bzero_tests();
 void ft_memcpy_tests();
 void ft_memccpy_tests();
 void ft_memmove_tests(void);
-void memccpy_sample(void);
 
