@@ -23,7 +23,7 @@ make
 [OK] 7.  memcmp  
 [OK] 8.  strlen  
 [OK] 9.  strlcpy  
-[] 10.  strlcat  
+[OK] 10.  strlcat  
 [] 11. strchr  
 [] 12. strrchr  
 [] 13. strnstr  
