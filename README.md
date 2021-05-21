@@ -24,8 +24,8 @@ make
 [OK] 8.  strlen  
 [OK] 9.  strlcpy  
 [OK] 10.  strlcat  
-[] 11. strchr  
-[] 12. strrchr  
+[OK] 11. strchr  
+[OK] 12. strrchr  
 [] 13. strnstr  
 [] 14. strncmp  
 [] 15. atoi  

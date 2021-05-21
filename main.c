@@ -18,6 +18,8 @@ void tests(void)
 	ft_strlen_tests();
 	ft_strlcpy_tests();
 	ft_strlcat_tests();
+	ft_strchr_tests();
+	ft_strrchr_tests();
 }
 
 int	main(void)

@@ -13,3 +13,5 @@ void ft_memcmp_tests(void);
 void ft_strlen_tests(void);
 void ft_strlcpy_tests(void);
 void ft_strlcat_tests(void);
+void ft_strchr_tests(void);
+void ft_strrchr_tests(void);
