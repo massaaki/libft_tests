@@ -18,6 +18,7 @@ libraries:
 	@gcc -c ./tests/ft_memcmp_tests.c -o ./out/ft_memcmp_tests.o
 	@gcc -c ./tests/ft_strlen_tests.c -o ./out/ft_strlen_tests.o
 	@gcc -c ./tests/ft_strlcpy_tests.c -o ./out/ft_strlcpy_tests.o
+	@gcc -c ./tests/ft_strlcat_tests.c -o ./out/ft_strlcat_tests.o
 	
 
 clean:
