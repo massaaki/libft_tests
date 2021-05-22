@@ -9,7 +9,6 @@ int ft_strnstr_test00(void)
 
 	char *response = strnstr(haystrack, needle, len);
 	char *response_ft = ft_strnstr(haystrack, needle, len);
-
 	/*
 	if(response != NULL)
 	{
@@ -18,7 +17,7 @@ int ft_strnstr_test00(void)
 	}
 	*/
 
-	if(response == NULL && response == response_ft) return 1;
+	if(response == response_ft) return 1;
 	else return 0;
 
 }
