@@ -31,7 +31,7 @@ make
 [OK] 15. atoi  
 [OK] 16. isalpha  
 [OK] 17. isdigit  
-[] 18. isalnum  
+[OK] 18. isalnum  
 [] 19. isascii  
 [] 20. isprint  
 [] 21. toupper  
