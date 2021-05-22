@@ -21,3 +21,4 @@ void ft_strncmp_tests(void);
 void ft_atoi_tests(void);
 void ft_isalpha_tests(void);
 void ft_isdigit_tests(void);
+void ft_isalnum_tests(void);
