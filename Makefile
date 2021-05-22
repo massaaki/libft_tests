@@ -27,6 +27,7 @@ libraries:
 	@gcc -c ./tests/ft_isalpha_tests.c -o ./out/ft_isalpha_tests.o
 	@gcc -c ./tests/ft_isdigit_tests.c -o ./out/ft_isdigit_tests.o
 	@gcc -c ./tests/ft_isalnum_tests.c -o ./out/ft_isalnum_tests.o
+	@gcc -c ./tests/ft_isascii_tests.c -o ./out/ft_isascii_tests.o
 
 clean:
 	@rm -f a.out

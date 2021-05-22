@@ -32,7 +32,7 @@ make
 [OK] 16. isalpha  
 [OK] 17. isdigit  
 [OK] 18. isalnum  
-[] 19. isascii  
+[OK] 19. isascii  
 [] 20. isprint  
 [] 21. toupper  
 [] 22. tolower  
