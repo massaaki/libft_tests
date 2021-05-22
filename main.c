@@ -27,6 +27,7 @@ void tests(void)
 	ft_isdigit_tests();
 	ft_isalnum_tests();
 	ft_isascii_tests();
+	ft_isprint_tests();
 }
 
 int	main(void)

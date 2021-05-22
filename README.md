@@ -33,7 +33,7 @@ make
 [OK] 17. isdigit  
 [OK] 18. isalnum  
 [OK] 19. isascii  
-[] 20. isprint  
+[OK] 20. isprint  
 [] 21. toupper  
 [] 22. tolower  
 [] 23. calloc  
