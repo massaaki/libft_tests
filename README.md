@@ -28,7 +28,7 @@ make
 [OK] 12. strrchr  
 [OK] 13. strnstr  
 [OK] 14. strncmp  
-[] 15. atoi  
+[OK] 15. atoi  
 [] 16. isalpha  
 [] 17. isdigit  
 [] 18. isalnum  
