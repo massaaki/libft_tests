@@ -23,6 +23,7 @@ libraries:
 	@gcc -c ./tests/ft_strrchr_tests.c -o ./out/ft_strrchr_tests.o
 	@gcc -c ./tests/ft_strnstr_tests.c -o ./out/ft_strnstr_tests.o
 	@gcc -c ./tests/ft_strncmp_tests.c -o ./out/ft_strncmp_tests.o
+	@gcc -c ./tests/ft_atoi_tests.c -o ./out/ft_atoi_tests.o
 
 clean:
 	@rm -f a.out

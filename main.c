@@ -22,6 +22,7 @@ void tests(void)
 	ft_strrchr_tests();
 	ft_strnstr_tests();
 	ft_strncmp_tests();
+	ft_atoi_tests();
 }
 
 int	main(void)
