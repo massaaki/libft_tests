@@ -28,6 +28,7 @@ void tests(void)
 	ft_isalnum_tests();
 	ft_isascii_tests();
 	ft_isprint_tests();
+	ft_toupper_tests();
 }
 
 int	main(void)

@@ -29,6 +29,7 @@ libraries:
 	@gcc -c ./tests/ft_isalnum_tests.c -o ./out/ft_isalnum_tests.o
 	@gcc -c ./tests/ft_isascii_tests.c -o ./out/ft_isascii_tests.o
 	@gcc -c ./tests/ft_isprint_tests.c -o ./out/ft_isprint_tests.o
+	@gcc -c ./tests/ft_toupper_tests.c -o ./out/ft_toupper_tests.o
 
 clean:
 	@rm -f a.out

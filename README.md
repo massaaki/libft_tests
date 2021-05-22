@@ -34,7 +34,7 @@ make
 [OK] 18. isalnum  
 [OK] 19. isascii  
 [OK] 20. isprint  
-[] 21. toupper  
+[OK] 21. toupper  
 [] 22. tolower  
 [] 23. calloc  
 [] 24. strup  
