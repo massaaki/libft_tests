@@ -16,3 +16,5 @@ void ft_strlcat_tests(void);
 void ft_strchr_tests(void);
 void ft_strrchr_tests(void);
 void ft_strnstr_tests(void);
+void ft_strncmp_tests(void);
+

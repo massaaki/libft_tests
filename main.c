@@ -21,6 +21,7 @@ void tests(void)
 	ft_strchr_tests();
 	ft_strrchr_tests();
 	ft_strnstr_tests();
+	ft_strncmp_tests();
 }
 
 int	main(void)
