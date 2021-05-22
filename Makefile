@@ -25,6 +25,7 @@ libraries:
 	@gcc -c ./tests/ft_strncmp_tests.c -o ./out/ft_strncmp_tests.o
 	@gcc -c ./tests/ft_atoi_tests.c -o ./out/ft_atoi_tests.o
 	@gcc -c ./tests/ft_isalpha_tests.c -o ./out/ft_isalpha_tests.o
+	@gcc -c ./tests/ft_isdigit_tests.c -o ./out/ft_isdigit_tests.o
 
 clean:
 	@rm -f a.out
