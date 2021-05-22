@@ -60,4 +60,8 @@ make
 [] 40. ft_lstdelone  
 [] 41. ft_lstclear  
 [] 42. ft_lstiter  
-[] 43. ft_lstmap  
+[] 43. ft_lstmap
+
+
+### Others
+[] 44. ft_strtol
