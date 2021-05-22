@@ -30,7 +30,7 @@ make
 [OK] 14. strncmp  
 [OK] 15. atoi  
 [OK] 16. isalpha  
-[] 17. isdigit  
+[OK] 17. isdigit  
 [] 18. isalnum  
 [] 19. isascii  
 [] 20. isprint  
