@@ -12,7 +12,7 @@ static int test00(void)
 	{
 		is_alpha = isalpha(letter);
 		is_alpha_ft = ft_isalpha(letter);
-		if (!is_alpha && !is_alpha_ft)
+		if (!is_alpha || !is_alpha_ft)
 		{
 			printf("->%d\n", is_alpha);
 			printf("ERROR (word should be between 'a' and 'z')\n");
@@ -36,9 +36,8 @@ static int test01(void)
 	{
 		is_alpha = isalpha(letter);
 		is_alpha_ft = ft_isalpha(letter);
-		if (!is_alpha && !is_alpha_ft)
+		if (!is_alpha || !is_alpha_ft)
 		{
-			printf("->%d\n", is_alpha);
 			printf("ERROR (word should be between 'A' and 'Z')\n");
 			return (0);
 		}
@@ -62,7 +61,7 @@ static int test02(void)
 		{
 			is_alpha = isalpha(letter);
 			is_alpha_ft = ft_isalpha(letter);
-			if (is_alpha && is_alpha_ft)
+			if (is_alpha || is_alpha_ft)
 			{
 				printf("ERROR (it should be FALSE if word is not a~z or A~Z)\n");
 				return (0);

@@ -12,7 +12,7 @@ static int test00(void)
 	{
 		is_digit = isdigit(letter);
 		is_digit_ft = ft_isdigit(letter);
-		if (!is_digit && !is_digit)
+		if (!is_digit || !is_digit_ft)
 		{
 			printf("ERROR (word should be between '0' and '9')\n");
 			return (0);
@@ -37,7 +37,7 @@ static int test01(void)
 		{
 			is_digit = isdigit(letter);
 			is_digit_ft = ft_isdigit(letter);
-			if (is_digit && is_digit_ft)
+			if (is_digit || is_digit_ft)
 			{
 				printf("ERROR (it should be FALSE if word is not between 0~9)\n");
 				return (0);
