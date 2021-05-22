@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h> //isalpha
 #include "../00-libft/libft.h"
 
 void ft_memset_tests();
@@ -18,3 +19,4 @@ void ft_strrchr_tests(void);
 void ft_strnstr_tests(void);
 void ft_strncmp_tests(void);
 void ft_atoi_tests(void);
+void ft_isalpha_tests(void);

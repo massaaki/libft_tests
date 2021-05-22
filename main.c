@@ -23,6 +23,7 @@ void tests(void)
 	ft_strnstr_tests();
 	ft_strncmp_tests();
 	ft_atoi_tests();
+	ft_isalpha_tests();
 }
 
 int	main(void)

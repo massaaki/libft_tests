@@ -29,7 +29,7 @@ make
 [OK] 13. strnstr  
 [OK] 14. strncmp  
 [OK] 15. atoi  
-[] 16. isalpha  
+[OK] 16. isalpha  
 [] 17. isdigit  
 [] 18. isalnum  
 [] 19. isascii  
