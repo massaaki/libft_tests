@@ -20,6 +20,7 @@ void tests(void)
 	ft_strlcat_tests();
 	ft_strchr_tests();
 	ft_strrchr_tests();
+	ft_strnstr_tests();
 }
 
 int	main(void)
