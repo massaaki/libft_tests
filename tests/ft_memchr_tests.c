@@ -48,9 +48,25 @@ int test_04()
 	return (response == response_ft) ? 1 : 0;
 }
 
+int test_05(void)
+{
+	 char s[] = {0, 1, 2 ,3 ,4 ,5};
+	 void * response = memchr(s, 0, 1);
+	 void * response_ft = ft_memchr(s, 0, 1);
+
+	 if( memcmp(response, response_ft, 1) == 0)
+	 {
+		return (1);
+	 } else {
+		printf("ERROR (test_05)\n");
+		return (0);
+	 }
+}
+
+
 void ft_memchr_tests()
 {
-	if(test_01() && test_02() && test_03() && test_04())
+	if(test_01() && test_02() && test_03() && test_04() && test_05())
 		printf("ft_memchr..: OK\n");
 	else
 		printf("ft_memchr..: ERROR\n");

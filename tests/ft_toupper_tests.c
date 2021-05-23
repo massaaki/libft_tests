@@ -44,6 +44,15 @@ static int test01(void)
 	return (1);
 }
 
+static int test02(void)
+{
+	int c = 'a';
+	if (tolower(c) == ft_tolower(c)) 
+		return (1);
+	printf("ERROR (test02)\n");
+	return (0);
+}
+
 static void describe00(void)
 {
 	int i;
@@ -61,7 +70,7 @@ static void describe00(void)
 }
 void ft_toupper_tests(void)
 {
-	if (test00() && test01())
+	if (test00() && test01() && test02())
 		printf("ft_toupper..: OK!\n");
 	else
 		printf("ft_toupper..: ERROR\n");
