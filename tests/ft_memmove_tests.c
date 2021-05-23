@@ -1,6 +1,6 @@
 #include "../header.h"
 
-void ft_memmove_tests()
+void ft_memmove_tests(void)
 {
 	char dst[30];
 	char dst_ft[30];

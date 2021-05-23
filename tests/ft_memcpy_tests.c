@@ -1,6 +1,6 @@
 #include "../header.h"
 
-void ft_memcpy_tests()
+void ft_memcpy_tests(void)
 {
 	char dest[30] = "";
 	char ft_dest[30] = "";

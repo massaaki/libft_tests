@@ -5,9 +5,18 @@
 
 #include "header.h"
 
-
-void tests(void)
+static void print_heading(char *title)
 {
+	printf("\n");
+	printf("###########################################\n");
+	printf("# %s\n", title);
+	printf("#\n");
+	printf("###########################################\n");
+}
+static void part_one_tests(void)
+{
+	print_heading("Part 01");
+
 	ft_memset_tests();
 	ft_bzero_tests();
 	ft_memcpy_tests();
@@ -34,9 +43,17 @@ void tests(void)
 	ft_strdup_tests();
 }
 
+static void part_two_tests(void)
+{
+	print_heading("Part 02");
+
+	ft_substr_tests();
+}
+
 int	main(void)
 {
-	tests();
+	part_one_tests();
+	part_two_tests();
 	
 	return (0);
 }

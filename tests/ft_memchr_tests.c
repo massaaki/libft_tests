@@ -64,7 +64,7 @@ int test_05(void)
 }
 
 
-void ft_memchr_tests()
+void ft_memchr_tests(void)
 {
 	if(test_01() && test_02() && test_03() && test_04() && test_05())
 		printf("ft_memchr..: OK\n");

@@ -1,6 +1,6 @@
 #include "../header.h"
 
-void ft_bzero_tests()
+void ft_bzero_tests(void)
 {
 	char dest[30 + 1] = "";
 	char ft_dest[30 + 1] = "";

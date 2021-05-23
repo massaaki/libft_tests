@@ -4,10 +4,11 @@
 #include <ctype.h> //isalpha
 #include "../00-libft/libft.h"
 
-void ft_memset_tests();
-void ft_bzero_tests();
-void ft_memcpy_tests();
-void ft_memccpy_tests();
+//Part one tests
+void ft_memset_tests(void);
+void ft_bzero_tests(void);
+void ft_memcpy_tests(void);
+void ft_memccpy_tests(void);
 void ft_memmove_tests(void);
 void ft_memchr_tests(void);
 void ft_memcmp_tests(void);
@@ -28,3 +29,6 @@ void ft_toupper_tests(void);
 void ft_tolower_tests(void);
 void ft_calloc_tests(void);
 void ft_strdup_tests(void);
+
+//Part two tests
+void ft_substr_tests(void);

@@ -26,7 +26,7 @@ int test02()
 }
 
 
-void	ft_memcmp_tests()
+void	ft_memcmp_tests(void)
 {
 	if(test01() && test02())
 		printf("ft_memcmp..: OK!\n");

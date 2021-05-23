@@ -1,4 +1,4 @@
-all:	libraries
+all:	part_one part_two
 	clear
 	@echo 
 	@echo "Running tests..."
@@ -8,7 +8,7 @@ all:	libraries
 	@echo "Tests Concluded! <3"
 	@echo 
 
-libraries:
+part_one:
 	@gcc -c ./tests/ft_bzero_tests.c -o ./out/ft_bzero_tests.o
 	@gcc -c ./tests/ft_memset_tests.c -o ./out/ft_memset_tests.o
 	@gcc -c ./tests/ft_memcpy_tests.c -o ./out/ft_memcpy_tests.o
@@ -33,6 +33,9 @@ libraries:
 	@gcc -c ./tests/ft_tolower_tests.c -o ./out/ft_tolower_tests.o
 	@gcc -c ./tests/ft_calloc_tests.c -o ./out/ft_calloc_tests.o
 	@gcc -c ./tests/ft_strdup_tests.c -o ./out/ft_strdup_tests.o
+
+part_two:
+	gcc -c ./part_two_tests/ft_substr_tests.c -o ./out/ft_substr_tests.o
 
 clean:
 	@rm -f a.out
