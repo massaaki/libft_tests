@@ -47,7 +47,8 @@ static int test01(void)
 static int test02(void)
 {
 	int c = 'a';
-	if (tolower(c) == ft_tolower(c)) 
+
+	if (toupper(c) == ft_toupper(c)) 
 		return (1);
 	printf("ERROR (test02)\n");
 	return (0);

@@ -63,9 +63,44 @@ int ft_strnstr_test02(void)
 	return (0);
 }
 
+static int test03(void)
+{
+	char haystack[30] = "aaabcabcd";
+	char needle[10] = "aabc";
+	size_t len = -1;
+
+	char *response = strnstr(haystack, needle, len);
+	char *response_ft = ft_strnstr(haystack, needle, len);
+
+	if(response == response_ft)
+		return (1);
+
+	printf("ERROR (test03)\n");
+	return (0);
+}
+
+static int test04(void)
+{
+	char haystack[30] = "aaabcabcd";
+	char needle[10]  = "abcd";
+	size_t len = 9;
+
+	char *response = strnstr(haystack, needle, len);
+	char *response_ft = ft_strnstr(haystack, needle, len);
+
+	if(response == response_ft)
+		return (1);
+
+	printf("ERROR (test03)\n");
+	return (0);
+	 
+}
+
+
 void ft_strnstr_tests(void)
 {
-	if (ft_strnstr_test00() && ft_strnstr_test01() && ft_strnstr_test02())
+	//if (ft_strnstr_test00() && ft_strnstr_test01() && ft_strnstr_test02() && test03())
+	if (test03() && test04())
 		printf("ft_strnstr..:: OK!\n");
 	else
 		printf("ft_strnstr..: ERROR\n");
