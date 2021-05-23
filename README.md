@@ -37,7 +37,7 @@ make
 [OK] 21. toupper  
 [OK] 22. tolower  
 [OK] 23. calloc  
-[] 24. strup  
+[OK] 24. strdup  
 
 ### Additional functions
 [] 25. ft_substr  

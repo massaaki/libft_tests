@@ -27,3 +27,4 @@ void ft_isprint_tests(void);
 void ft_toupper_tests(void);
 void ft_tolower_tests(void);
 void ft_calloc_tests(void);
+void ft_strdup_tests(void);
