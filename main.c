@@ -29,6 +29,7 @@ void tests(void)
 	ft_isascii_tests();
 	ft_isprint_tests();
 	ft_toupper_tests();
+	ft_tolower_tests();
 }
 
 int	main(void)
