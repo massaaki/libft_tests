@@ -31,6 +31,7 @@ libraries:
 	@gcc -c ./tests/ft_isprint_tests.c -o ./out/ft_isprint_tests.o
 	@gcc -c ./tests/ft_toupper_tests.c -o ./out/ft_toupper_tests.o
 	@gcc -c ./tests/ft_tolower_tests.c -o ./out/ft_tolower_tests.o
+	@gcc -c ./tests/ft_calloc_tests.c -o ./out/ft_calloc_tests.o
 
 clean:
 	@rm -f a.out

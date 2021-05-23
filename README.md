@@ -36,7 +36,7 @@ make
 [OK] 20. isprint  
 [OK] 21. toupper  
 [OK] 22. tolower  
-[] 23. calloc  
+[OK] 23. calloc  
 [] 24. strup  
 
 ### Additional functions

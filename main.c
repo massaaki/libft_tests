@@ -30,6 +30,7 @@ void tests(void)
 	ft_isprint_tests();
 	ft_toupper_tests();
 	ft_tolower_tests();
+	ft_calloc_tests();
 }
 
 int	main(void)
