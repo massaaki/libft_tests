@@ -36,6 +36,7 @@ part_one:
 
 part_two:
 	gcc -c ./part_two_tests/ft_substr_tests.c -o ./out/ft_substr_tests.o
+	gcc -c ./part_two_tests/ft_strtrim_tests.c -o ./out/ft_strtrim_tests.o
 
 clean:
 	@rm -f a.out

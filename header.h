@@ -29,6 +29,7 @@ void ft_toupper_tests(void);
 void ft_tolower_tests(void);
 void ft_calloc_tests(void);
 void ft_strdup_tests(void);
+void ft_strtrim_tests(void);
 
 //Part two tests
 void ft_substr_tests(void);

@@ -40,9 +40,9 @@ make
 [OK] 24. strdup  
 
 ### Additional functions
-[] 25. ft_substr  
+[OK] 25. ft_substr  
 [] 26. ft_strjoin  
-[] 27. ft_strtrim  
+[OK] 27. ft_strtrim  
 [] 28. ft_split  
 [] 29. ft_itoa  
 [] 30. ft_strmapi  

@@ -48,11 +48,12 @@ static void part_two_tests(void)
 	print_heading("Part 02");
 
 	ft_substr_tests();
+	ft_strtrim_tests();
 }
 
 int	main(void)
 {
-	part_one_tests();
+	//part_one_tests();
 	part_two_tests();
 	
 	return (0);

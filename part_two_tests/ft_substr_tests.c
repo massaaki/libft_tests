@@ -2,7 +2,14 @@
 
 static int test00(void)
 {
-	return (1);
+	char *s = ft_substr("abcdefgh", 0, 42000);
+	if (strcmp(s, "abcdefgh") == 0)
+		return (1);
+	else 
+	{
+		printf("ERROR (test00)\n");
+		return (0);
+	}
 }
 
 
