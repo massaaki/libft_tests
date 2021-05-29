@@ -49,13 +49,14 @@ static void part_two_tests(void)
 
 	ft_substr_tests();
 	ft_strtrim_tests();
+	ft_split_tests();
 }
 
 int	main(void)
 {
 	//part_one_tests();
-	part_two_tests();
-	
+	//part_two_tests();
+	ft_itoa_tests();	
 	return (0);
 }
 

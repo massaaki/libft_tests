@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -33,3 +34,8 @@ void ft_strtrim_tests(void);
 
 //Part two tests
 void ft_substr_tests(void);
+void ft_strtrim_tests(void);
+void ft_split_tests(void);
+void ft_itoa_tests(void);
+
+
